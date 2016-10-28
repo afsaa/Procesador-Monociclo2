@@ -15,7 +15,7 @@ end registerFile;
 
 architecture Behavioral of registerFile is
 
-type rom_type is array (0 to 63) of std_logic_vector (31 downto 0);
+type rom_type is array (0 to 39) of std_logic_vector (31 downto 0);
 signal RF: rom_type:=(others => "00000000000000000000000000000000");
 
 begin
